@@ -1,0 +1,14 @@
+plugins {
+	id 'java'
+	id 'idea'
+	id 'eclipse'
+	id 'org.springframework.boot' version '1.5.6.RELEASE'
+}
+
+repositories { mavenCentral() }
+
+dependencies {
+	compile('org.springframework.boot:spring-boot-starter')
+	runtime('org.springframework.boot:spring-boot-devtools')
+	compileOnly('org.projectlombok:lombok')
+}

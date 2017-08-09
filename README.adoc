@@ -1,0 +1,6 @@
+= spring-property-source-example image:https://travis-ci.org/daggerok/spring-property-source-example.svg?branch=master["Build Status", link="https://travis-ci.org/daggerok/spring-property-source-example"]
+
+This repo is contains simple example of usage spring-boot @PropertySource and Environment
+
+[source,bash]
+gradle bootRun
